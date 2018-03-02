@@ -1,6 +1,56 @@
 .container-fluid{
     width:100%;
-    height:500px;
-    background-color: red;
+    min-height:60px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spacer {
+    width:20%;
+    height:60px;
+}
+.main-nav {
+    width:60%;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-nav {
+    width:20%;
+    height:60px;
+    display:flex;
+    align-items: center;
+}
+.side-nav a {
+    font-size:25px;
+    line-height:90px;
+    margin-left:22px;
+    color:black;
+}
+.nav a {
+    color:black;
 }
 
+.nav a:hover {
+    color:#bfa67a
+}
+
+.background {
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-image:url('../contents/image.jpg');
+    background-size: 100% 80%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.name {
+    width:50%;
+    height:40%;
+    text-align: center;
+}
