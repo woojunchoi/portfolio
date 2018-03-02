@@ -3,19 +3,19 @@ var space = angular.module('space', ['ngRoute']);
 space.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
     when('/home', {
-        templateUrl:'/index.html'
+        templateUrl:'../views/home.html'
     }).
     when('/about', {
-        templateUrl:'/public/views/about.html'
+        templateUrl:'../views/about.html'
     }).
     when('/techskills', {
-        templateUrl:'/public/views/tech.html'
+        templateUrl:'../views/tech.html'
     }).
-    when('/works', {
-        templateUrl:'/public/views/works.html'
+    when('/projects', {
+        templateUrl:'../views/projects.html'
     }).
     when('/contact', {
-        templateUrl:'/public/views/works.html'        
+        templateUrl:'../views/contact.html'        
     }).
     otherwise({
         redirectTo:'/home'
