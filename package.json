@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "woojun",
+  "license": "ISC"
+}
