@@ -30,7 +30,6 @@ body {
 }
 .side-nav {
     width:20%;
-    height:60px;
     display:flex;
     align-items: center;
 }
@@ -39,6 +38,23 @@ body {
     line-height:90px;
     margin-left:22px;
     color:black;
+}
+
+.side-nav.small {
+    width:30%;
+    float:right;
+}
+
+.side-nav.small a {
+    font-size:25px;
+    line-height:90px;
+    margin-left:22px;
+    color:white;
+    margin-top:10px;
+}
+
+.side-nav.small ul li {
+    display:inline-block;
 }
 .nav a {
     color:black;
@@ -67,6 +83,7 @@ form {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top:0;
 }
 
 .main.active {
@@ -111,6 +128,9 @@ form {
     display:flex;
     justify-content: center;
 }
+.tech-header h3 {
+    font-size:60px
+}
 
 .tech-icons {
     width:70%;
@@ -142,41 +162,36 @@ form {
     display:none;
 }
 
-.navsmall ul {
-    padding:0;
-}
-.navsmall ul li {
-    text-align: center;
-    list-style: none;
-    padding: 10px 0;
-    border-top: 1px solid #e2e2e2;
-}
-.navsmall ul li a {
-    text-decoration: none;
-    color:white;
-}
 
 .dropmenu {
     display:none;
     color:white;
-    background-color:black
+    background-color:black;
+}
+.dropmenu i:hover {
+    color:#bfa67a;
+    cursor:pointer;
 }
 
-.navsmall.active {
+.navsmall.active.bounceInDown{
     display:block;
     text-align:center;
     margin:0 auto;
     padding:0;
     background-color:black;
     color:white;
+    transition:5s all;
 }
 /* contact page  */
 
 .content{
-    padding: 20px;
+    padding: 30px;
     overflow:hidden;
   }
-  
+  .content h3 {
+      font-size:60px;
+      text-align:center;
+  }
   .content button,
   .content input[type="submit"]{
     background: #fff;
@@ -231,10 +246,22 @@ form {
     color:white;
   }
 
+  main.ng-enter {
+    transition:0.5s linear all;
+    opacity:0;
+  }
+  
+  main.ng-enter.ng-enter-active {
+    opacity:1;
+  }
+
 @media only screen and (max-width: 1070px) {
     .tech-icons {
       grid-template-columns: repeat(4, 1fr);
   }
+    .navsmall {
+        display:none;
+    }
 }
 
 @media only screen and (max-width: 960px) {
@@ -250,10 +277,30 @@ form {
             font-size:25px;
             width:100%;
         }
-        .dropmenu .fas {
-            float:right
+        .dropmenu .bar {
+            cursor:pointer;
         }
-}
+        .dropmenu .bar:hover {
+            color:#bfa67a;
+        }
+        .navsmall ul {
+            padding:0;
+        }
+        .navsmall ul li {
+            text-align: center;
+            list-style: none;
+            padding: 10px 0;
+            border-top: 1px solid #e2e2e2;
+        }
+        .navsmall ul li a {
+            text-decoration: none;
+            color:white;
+        }
+        .navsmall ul li a:hover {
+            text-decoration: none;
+            color:#bfa67a;
+        }
+    }
 
 @media only screen and (max-width: 800px) {
     .tech-icons {
@@ -273,5 +320,9 @@ form {
 }
     form {
         width:300px;
+    }
+    .side-nav.small {
+        width:40%;
+        float:right;
     }
 }

@@ -27,7 +27,7 @@ spaceApp.controller("SpaceController", ['$scope','$http', function($scope,$http)
 
     $scope.changeClass = function(){
       if ($scope.class === "navsmall"){
-        $scope.class = "navsmall active";
+        $scope.class = "navsmall active bounceInDown"
       }
       else{
         $scope.class = "navsmall";
