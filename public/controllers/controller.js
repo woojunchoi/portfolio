@@ -1,6 +1,6 @@
-var space = angular.module('space', ['ngRoute']);
+var spaceApp = angular.module("space", ['ngRoute']);
 
-space.config(['$routeProvider', function($routeProvider) {
+spaceApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
     when('/home', {
         templateUrl:'../views/home.html'
@@ -22,7 +22,16 @@ space.config(['$routeProvider', function($routeProvider) {
     })
 }])
 
-space.controller('spaceController' ['$scope','$http', function($scope,$http) {
-    $scope.hi = 'hi'
+spaceApp.controller("SpaceController" ['$scope','$http', function($scope,$http) {
+    $scope.class = "navsmall";
+    
+    $scope.changeClass = function(){
+      if ($scope.class === "navsmall"){
+        $scope.class = "navsmall active";
+      }
+      else{
+        $scope.class = "navsmall";
+      }
+    }
 }])
 
