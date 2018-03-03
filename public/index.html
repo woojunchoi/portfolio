@@ -54,24 +54,23 @@
             </div>
           </div>
           <div class='toggle'>
-            {{class}}
             <div class='dropmenu' ng-click='changeClass()'><i class="fas fa-bars"></i></div>
           <div ng-class ='class'>
           <ul>
               <li>
-                <a href="#home">Home</a>
+                <a href="#!/home" ng-click='changeClass()'>HOME</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#!/about" ng-click='changeClass()'>ABOUT</a>
               </li>
               <li>
-                <a href="#services">Tech Skills</a>
+                <a href="#!/techskills" ng-click='changeClass()'>TECH</a>
               </li>
               <li>
-                <a href="#portfolio">Works</a>
+                <a href="#!/projects" ng-click='changeClass()'>PROJECT</a>
               </li>                         
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#!/contact" ng-click='changeClass()'>CONTACT</a>
               </li>
             </ul>
             </div>

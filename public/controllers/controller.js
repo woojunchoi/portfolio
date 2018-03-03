@@ -1,4 +1,4 @@
-var spaceApp = angular.module("space", ['ngRoute']);
+var spaceApp = angular.module("space", ['ngRoute', 'ngAnimate']);
 
 spaceApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
@@ -22,9 +22,9 @@ spaceApp.config(['$routeProvider', function($routeProvider) {
     })
 }])
 
-spaceApp.controller("SpaceController" ['$scope','$http', function($scope,$http) {
+spaceApp.controller("SpaceController", ['$scope','$http', function($scope,$http) {
     $scope.class = "navsmall";
-    
+
     $scope.changeClass = function(){
       if ($scope.class === "navsmall"){
         $scope.class = "navsmall active";

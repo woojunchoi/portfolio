@@ -142,20 +142,33 @@ form {
     display:none;
 }
 
-/* .navsmall ul {
-    list-style: none;
-} */
+.navsmall ul {
+    padding:0;
+}
 .navsmall ul li {
     text-align: center;
     list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid #e2e2e2;
+}
+.navsmall ul li a {
+    text-decoration: none;
+    color:white;
 }
 
 .dropmenu {
-    display:none
+    display:none;
+    color:white;
+    background-color:black
 }
 
 .navsmall.active {
     display:block;
+    text-align:center;
+    margin:0 auto;
+    padding:0;
+    background-color:black;
+    color:white;
 }
 /* contact page  */
 
@@ -233,9 +246,12 @@ form {
         }
         .dropmenu {
             display:block;
-            float:right;
             padding:15px;
             font-size:25px;
+            width:100%;
+        }
+        .dropmenu .fas {
+            float:right
         }
 }
 
