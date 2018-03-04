@@ -281,7 +281,7 @@ form {
   }
   
   .text-container {
-    width:50%;
+    width:80%;
     height:100%;
     background-color: white;
   }
@@ -294,6 +294,14 @@ form {
     margin:0 auto;
     width:75%;
     height:75%;
+  }
+  .text-container-wrapper {
+      width:50%;
+      display:flex;
+      justify-content: center;
+  }
+  .text-container p {
+    font-size:17px;
   }
 
 @media only screen and (max-width: 1070px) {
@@ -359,7 +367,7 @@ form {
     
 }
 /* for small smartphone(min-max:370px) */
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 635px) {
   .tech-icons {
     grid-template-columns: repeat(1, 1fr);
 }
@@ -383,11 +391,11 @@ form {
         justify-content: center;
       }
       
-      .text-container {
-        width:100%;
+      /* .text-container {
+        width:80%;
         padding: 0 10px 0 10px;
         height:auto;
-      }
+      } */
       .text-container h2 {
         text-align:center;
       }
@@ -402,4 +410,9 @@ form {
       .about-header-container {
         height:0;
       }
+      .text-container-wrapper {
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
 }
