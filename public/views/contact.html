@@ -5,7 +5,7 @@
                     <input type='name' name='name' placeholder='NAME' ng-model='contact.name' ng-required='true'/>
                     <input type='email' name='email' placeholder="EMAIL" ng-model='contact.email' ng-required='true'/>
                     <textarea placeholder='YOUR MESSAGE' ng-model='contact.message' name='message' ng-required='true'></textarea>
-                    <input type='submit' value='submit'/>
+                    <input type='submit' value='submit' ng-click='sendEmail()'/>
                 </form>
             </div>
     </div>

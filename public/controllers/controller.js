@@ -15,7 +15,8 @@ spaceApp.config(['$routeProvider', function($routeProvider) {
         templateUrl:'../views/projects.html'
     }).
     when('/contact', {
-        templateUrl:'../views/contact.html'        
+        templateUrl:'../views/contact.html',
+        controller:"SpaceController"        
     }).
     otherwise({
         redirectTo:'/home'
@@ -33,5 +34,10 @@ spaceApp.controller("SpaceController", ['$scope','$http', function($scope,$http)
         $scope.class = "navsmall";
       }
     }
+    $scope.sendEmail = function() {
+        console.log($scope.contact)
+        $http.post('/send', $scope.contact)
+    }
+
 }])
 
