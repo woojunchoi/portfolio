@@ -98,6 +98,9 @@ form {
 .main.about {
     margin-top:0;
 }
+.main.projects {
+    margin-top:0;
+}
 
 .name {
     width:50%;
@@ -266,6 +269,13 @@ form {
     text-align: center;
     background-color:white;
   }
+  .project-header-container {
+    width:100%;
+    height:15%;
+    text-align: center;
+    background-color:white;
+      
+  }
 
   .aboutwoojun-container {
       display:flex;
@@ -303,6 +313,48 @@ form {
   }
   .text-container p {
     font-size:17px;
+  }
+
+  /* projects */
+  .project-container {
+      height:85%;
+      width:100%;
+      display:flex;
+      justify-content: space-around;
+      align-items:center;
+  }
+  .project {
+      width:30%;
+      height:90%;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+  }
+  .image-container {
+      width:80%;
+      height:45%;
+  }
+
+  .textarea-text {
+      margin-top:100px;
+      width:90%;
+      height:45%;
+      background-color:white;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: space-around;
+  }
+  .text-header {
+      width: 80%;
+      height: 20%;
+      text-align:center;
+  }
+  .text-write {
+      width:80%;
+      height:80%;
+      text-align:center;
   }
 
 @media only screen and (max-width: 1070px) {
