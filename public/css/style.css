@@ -5,7 +5,7 @@ html {
 
 body {
     height:auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato'
 }
 
 .contenting {
@@ -98,9 +98,9 @@ form {
 .main.about {
     margin-top:0;
 }
-.main.projects {
+/* .main.projects {
     margin-top:0;
-}
+} */
 
 .name {
     width:50%;
@@ -312,11 +312,12 @@ form {
       margin-bottom:20px;
   }
   .text-container p {
-    font-size:17px;
+    font-size:15px;
+    line-height:1.3em;
   }
 
   /* projects */
-  .project-container {
+  /* .project-container {
       height:85%;
       width:100%;
       display:flex;
@@ -330,6 +331,7 @@ form {
       flex-direction: column;
       justify-content: center;
       align-items:center;
+      
   }
   .image-container {
       width:80%;
@@ -355,11 +357,11 @@ form {
       text-align:center;
   }
   .text-write {
-      margin-top:1%;
+      margin-top:3%;
       width:80%;
       height:80%;
       text-align:center;
-  }
+  } */
 
 @media only screen and (max-width: 1070px) {
     .tech-icons {
@@ -461,6 +463,9 @@ form {
       } */
       .text-container h2 {
         text-align:center;
+      }
+      .project-container{
+          height:auto;
       }
 
       .innerpicture-container {
