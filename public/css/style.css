@@ -91,7 +91,7 @@ form {
 .main.active {
     background-image:url('../contents/image.jpg');
     margin-top:0px;
-    height:90%;
+    height:100%;
     background-repeat:no-repeat;
     background-size: 100% 100%;
     justify-content: center;
