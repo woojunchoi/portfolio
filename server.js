@@ -3,6 +3,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const sendmail = require('sendmail')();
 
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static(__dirname+ '/public'))
 
@@ -18,5 +19,4 @@ app.post('/send', function(req,res) {
       });
 })
 
-app.listen(3000)
-console.log('server is running')
+app.listen(PORT)
