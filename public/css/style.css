@@ -2,16 +2,13 @@ html {
     min-height:600px;
     height:auto;
 }
-
 body {
     height:auto;
     font-family: 'Lato'
 }
-
 .contenting {
     height:auto;
 }
-
 .container-fluid{
     height:10%;
     background-color: white;
@@ -41,12 +38,10 @@ body {
     margin-left:22px;
     color:black;
 }
-
 .side-nav.small {
     width:25%;
     float:right;
 }
-
 .side-nav.small a {
     font-size:25px;
     line-height:90px;
@@ -54,7 +49,6 @@ body {
     color:white;
     margin-top:10px;
 }
-
 .side-nav.small ul li{
     display:inline-block;
 }
@@ -65,7 +59,6 @@ body {
 .nav a:hover {
     color:#7a7a7a
 }
-
 .main {
     width:100%;
     height:90%;
@@ -87,7 +80,6 @@ form {
     align-items: center;
     margin-top:0;
 }
-
 .main.active {
     background-image:url('../contents/image.jpg');
     margin-top:0px;
@@ -99,10 +91,6 @@ form {
 .main.about {
     margin-top:0;
 }
-/* .main.projects {
-    margin-top:0;
-} */
-
 .name {
     width:50%;
     height:50%;
@@ -110,7 +98,6 @@ form {
     vertical-align: center;
     font-size:20px;
 }
-
 .name p {
     margin-top:5px;
     margin-bottom:0px;
@@ -138,7 +125,6 @@ form {
 .tech-header h3 {
     font-size:60px
 }
-
 .tech-icons {
     width:70%;
     height:100%;
@@ -149,27 +135,21 @@ form {
     grid-column-gap: 1em;
     grid-row-gap: 2em;
 }
-
 .tech-icon {
     font-size:75px;
 }
-
 .icon-container h4 {
     margin-top:15px;
 }
 .icon-container {
     text-align: center;
 }
-
 .wrapper {
     height:100%;
 }
-
 .navsmall {
     display:none;
 }
-
-
 .dropmenu {
     display:none;
     color:white;
@@ -178,14 +158,12 @@ form {
 .dropmenu i:hover {
     color:#7a7a7a;
 }
-
 .drop-list {
     cursor:pointer;
 }
 .drop-list a {
     display:none;
 }
-
 .navsmall.active.bounceInDown{
     display:block;
     text-align:center;
@@ -216,27 +194,22 @@ form {
     box-shadow: 2px 2px 2px rgba(20,20,20,0.1);
     font-size: 16px;
   }
-  
   .content button:nth-child(2){
     float: right;
   }
-  
   .content ul{
     padding: 0;
     list-style-type: none;
     margin: 30px 0;
   }
-  
   .content li span{
     float: right;
   }
-  
   .content li h3{
     display: inline-block;
     font-weight: normal;
     font-size: 22px;
   }
-  
   .content input, textarea{
     width: 90%;
     padding: 10px 5%;
@@ -247,7 +220,6 @@ form {
   textarea {
       height:200px;
   }
-  
   .content input[type="submit"]:last-child{
     width: 150px;
     display: block;
@@ -262,16 +234,13 @@ form {
     background-color: #7a7a7a;
     color:white;
   }
-
   main.ng-enter {
     transition:0.5s linear all;
     opacity:0;
   }
-  
   main.ng-enter.ng-enter-active {
     opacity:1;
   }
-
   /* about page  */
   .about-header-container {
     width:100%;
