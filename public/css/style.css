@@ -63,7 +63,7 @@ body {
 }
 
 .nav a:hover {
-    color:#bfa67a
+    color:#7a7a7a
 }
 
 .main {
@@ -176,7 +176,7 @@ form {
     background-color:black;
 }
 .dropmenu i:hover {
-    color:#bfa67a;
+    color:#7a7a7a;
 }
 
 .drop-list {
@@ -250,6 +250,13 @@ form {
     display: block;
     margin: 30px auto;
     background-color: black;
+    color:white;
+  }
+  .content input[type="submit"]:last-child:hover{
+    width: 150px;
+    display: block;
+    margin: 30px auto;
+    background-color: #7a7a7a;
     color:white;
   }
 
@@ -401,7 +408,7 @@ form {
             cursor:pointer;
         }
         .dropmenu .bar:hover {
-            color:#bfa67a;
+            color:#7a7a7a
         }
         .navsmall ul {
             padding:0;
@@ -418,7 +425,7 @@ form {
         }
         .navsmall ul li a:hover {
             text-decoration: none;
-            color:#bfa67a;
+            color:#7a7a7a;
         }
         .drop-list a {
             display:block;

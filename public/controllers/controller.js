@@ -35,7 +35,9 @@ spaceApp.controller("SpaceController", ['$scope','$http', function($scope,$http)
       }
     }
     $scope.sendEmail = function() {
-        console.log($scope.contact)
+        if(!$scope.contact) {
+            return;
+        }
         $http.post('/send', $scope.contact)
     }
 
