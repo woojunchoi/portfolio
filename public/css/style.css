@@ -333,25 +333,29 @@ form {
   }
   .image-container {
       width:80%;
-      height:45%;
+  }
+  .image-container img {
+    border:1px solid black;
+
   }
 
   .textarea-text {
-      margin-top:100px;
+      margin-top:5%;
       width:90%;
       height:45%;
       background-color:white;
       display:flex;
       flex-direction: column;
       align-items:center;
-      justify-content: space-around;
   }
+
   .text-header {
       width: 80%;
       height: 20%;
       text-align:center;
   }
   .text-write {
+      margin-top:1%;
       width:80%;
       height:80%;
       text-align:center;
@@ -404,6 +408,12 @@ form {
         }
         .drop-list a {
             display:block;
+        }
+        .project-container {
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+            flex-direction:column
         }
     }
 
