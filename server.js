@@ -16,7 +16,10 @@ app.post('/send', function(req,res) {
         subject: 'contact form woojun.com',
         text: req.body.message,
         from: req.body.email
-      });
+      }, function(err, reply) {
+        console.log(err && err.stack);
+        console.dir(reply);
+    });
 })
 
 app.listen(PORT)

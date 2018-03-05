@@ -23,8 +23,9 @@ spaceApp.config(['$routeProvider', function($routeProvider) {
     })
 }])
 
-spaceApp.controller("SpaceController", ['$scope','$http', function($scope,$http) {
+spaceApp.controller("SpaceController", ['$scope','$http','$timeout', function($scope,$http,$timeout) {
     $scope.class = "navsmall";
+    $scope.alertClass = "alert alert-success"
 
     $scope.changeClass = function(){
       if ($scope.class === "navsmall"){
@@ -34,12 +35,26 @@ spaceApp.controller("SpaceController", ['$scope','$http', function($scope,$http)
         $scope.class = "navsmall";
       }
     }
+
+    $scope.alert = function() {
+        if($scope.alertClass === "alert alert-success") {
+            console.log('hyyyoy')
+            $scope.alertClass = "alert alert-success active"
+            $timeout(function() {
+                $scope.alertClass="alert alert-success"
+            },3000)
+        }
+    }
+
     $scope.sendEmail = function() {
-        if(!$scope.contact) {
+        if(!$scope.contact.name || !$scope.contact.email || !$scope.contact.message) {
             return;
         }
         $http.post('/send', $scope.contact)
+            $scope.contact.name =''
+            $scope.contact.email =''
+            $scope.contact.message=''
+            $scope.alert()
     }
-
 }])
 

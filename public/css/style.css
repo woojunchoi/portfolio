@@ -175,6 +175,14 @@ form {
 }
 /* contact page  */
 
+.alert.alert-success {
+    visibility:hidden;
+    position:absolute;
+}
+.alert.alert-success.active {
+    visibility:visible;
+} 
+
 .content{
     padding: 30px;
     overflow:hidden;
