@@ -101,6 +101,8 @@ form {
 .name p {
     margin-top:5px;
     margin-bottom:0px;
+    font-size:12px;
+    line-height:1;
 }
 .footer {
     width:100%;
