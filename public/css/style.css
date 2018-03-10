@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 .side-nav a {
-    font-size:18px !important;
+    font-size:19px;
     line-height:90px;
     margin-left:22px;
     color:black;
@@ -52,7 +52,7 @@ body {
 .side-nav.small ul li{
     display:inline-block;
 }
-.nav a {
+.nav-link {
     color:black;
     font-size:12px;
 }
