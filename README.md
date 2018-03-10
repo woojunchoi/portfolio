@@ -13,4 +13,4 @@
 
 ### Live
 ---
-<a href='https://www.woojunchoi.com'>visit</a>
+<a href='http://www.woojunchoi.com'>visit</a>
