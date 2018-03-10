@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 .side-nav a {
-    font-size:25px;
+    font-size:18px !important;
     line-height:90px;
     margin-left:22px;
     color:black;
@@ -54,6 +54,7 @@ body {
 }
 .nav a {
     color:black;
+    font-size:12px;
 }
 
 .nav a:hover {
