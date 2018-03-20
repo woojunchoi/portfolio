@@ -5,13 +5,13 @@
 
 #### Description
 
-- A personal website for contact purpose
+- A personal website for contact purpose.
 
 ### Visit
 
 - <a href='http://www.woojunchoi.com'>woojunchoi.com</a>
 
 ##### DEMO IMAGE: 
-![alt text](/mainpage.png "Main Page")
-![alt text](/aboutme.png "About Me")
-![alt text](/skillset.png "Skill Set")
+- ![alt text](/mainpage.png "Main Page")
+- ![alt text](/aboutme.png "About Me")
+- ![alt text](/skillset.png "Skill Set")
