@@ -12,6 +12,6 @@
 - <a href='http://www.woojunchoi.com'>woojunchoi.com</a>
 
 ##### DEMO IMAGE: 
-- ![alt text](/mainpage.png "Main Page")
+- ![alt text](/mainpage1.png "Main Page")
 - ![alt text](/aboutme.png "About Me")
 - ![alt text](/skillset.png "Skill Set")
