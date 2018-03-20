@@ -1,16 +1,17 @@
-# Website
-<br/>
+# Personal Website
 
-### Built With
----
-* [AngularJS](https://reactjs.org/)
-* [NodeJS](https://nodejs.org/en/)
-* [ExpressJS](https://expressjs.com/)
+## Front End Technologies:</br>Angular, JavaScript, HTML5, CSS3, Bootstrap, Animate.css
+## Back End Technologies:</br>NodeJS, Express
 
-### Author
----
-* **Tim Woojun Choi** - [Github](https://github.com/woojunchoi)
+#### Description
 
-### Live
----
-<a href='http://www.woojunchoi.com'>visit</a>
+- A personal website for contact purpose
+
+### Visit
+
+- <a href='http://www.woojunchoi.com'>woojunchoi.com</a>
+
+##### DEMO IMAGE: 
+![alt text](/mainpage.png "Main Page")
+![alt text](/aboutme.png "About Me")
+![alt text](/skillset.png "Skill Set")
